@@ -1,0 +1,19 @@
+{
+    "name": "redchamps/magento2-module-backend-menu-plugin",
+    "description": "Created a plugin for Magento/Backend/Model/Menu class.",
+    "require": {
+    },
+    "type": "magento2-module",
+    "version": "1.0.0",
+    "license": [
+        "MIT"
+    ],
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "RedChamps\\BackendMenuPlugin\\": ""
+        }
+    }
+}
